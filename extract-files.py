@@ -34,8 +34,6 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
-    'product/priv-app/MotCamera4/MotCamera4.apk': blob_fixup()
-        .apktool_patch('MotCamera4-patches'),
     ('vendor/lib/libmot_chi_desktop_helper.so', 'vendor/lib64/libmot_chi_desktop_helper.so'): blob_fixup()
         .add_needed('libgui_shim_vendor.so'),
 }  # fmt: skip
@@ -45,7 +43,7 @@ extract_fns: extract_fns_user_type = {
 }
 
 module = ExtractUtilsModule(
-    'dubai',
+    'tundra',
     'motorola',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
