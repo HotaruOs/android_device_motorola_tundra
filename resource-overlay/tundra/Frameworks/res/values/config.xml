@@ -70,7 +70,7 @@
          This array should be equal in size to config_screenBrightnessBacklight. -->
     <array name="config_screenBrightnessBacklight">
         <item>0</item>
-        <item>1</item>
+        <item>3</item>
         <item>4</item>
         <item>5</item>
         <item>6</item>
@@ -92,7 +92,7 @@
          This array should be equal in size to config_screenBrightnessBacklight -->
     <array name="config_screenBrightnessNits">
         <item>0</item>
-        <item>2</item>
+        <item>5</item>
         <item>7</item>
         <item>10</item>
         <item>12</item>
@@ -134,13 +134,7 @@
 
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
-    <string translatable="false" name="config_mainBuiltInDisplayCutout">
-        M -35,0
-        L 35,0
-		L 35,105
-		L -35,105
-		Z
-	</string>
+    <string translatable="false" name="config_mainBuiltInDisplayCutout">M -50,0 L 50,0 L 50,115 L -50,115 Z</string>
 
 	<!-- Indicate whether to allow the device to suspend when the screen is off
          due to the proximity sensor.  This resource should only be set to true
@@ -263,9 +257,9 @@
     <bool name="config_dozeAlwaysOnEnabled">false</bool>
 
     <!-- MMS user agent string -->
-    <string name="config_mms_user_agent" translatable="false">motorolaedge30</string>
+    <string name="config_mms_user_agent" translatable="false">Android-Mms/2.0</string>
     <!-- MMS user agent profile url -->
-    <string name="config_mms_user_agent_profile_url" translatable="false">http://uaprof.motorola.com/phoneconfig/motov1/Profile/motov1.rdf</string>
+    <string name="config_mms_user_agent_profile_url" translatable="false">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
 
     <!-- Type of the double tap sensor. Empty if double tap is not supported. -->
     <string name="config_dozeDoubleTapSensorType" translatable="false">org.lineageos.sensor.double_tap</string>
