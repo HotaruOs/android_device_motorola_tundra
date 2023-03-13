@@ -72,12 +72,11 @@ PRODUCT_COPY_FILES += \
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2.vendor \
-    android.hardware.nfc@1.2-service.st \
+    android.hardware.nfc_snxxx@1.2-service \
     android.hardware.secure_element@1.2.vendor \
     com.android.nfc_extras \
     libchrome.vendor \
-    Tag \
-    nfc_nci.st21nfc.default
+    Tag
 
 # Permissions
 PRODUCT_COPY_FILES += \
