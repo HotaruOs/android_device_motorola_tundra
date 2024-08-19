@@ -46,5 +46,9 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 BOOT_SECURITY_PATCH := 2024-10-01
 VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 
+# Verified Boot
+BOARD_AVB_ROLLBACK_INDEX := 23
+BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := 23
+
 # inherit from the proprietary version
 include vendor/motorola/tundra/BoardConfigVendor.mk
