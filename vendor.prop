@@ -9,3 +9,6 @@ ro.vendor.hw.nfc=st
 
 # Display
 vendor.display.idle_time=0
+
+# Media	
+persist.mm.enable.prefetch=true
