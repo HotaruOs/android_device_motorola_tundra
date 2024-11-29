@@ -94,10 +94,8 @@ wl2864c.ko
 cci_intf.ko
 nfc_i2c.ko
 sx937x_sar.ko
-moto_f_usbnet.ko
 touchscreen_mmi.ko
 goodix_brl_mmi.ko
 mmi_sys_temp.ko
-rbs_fps_mmi.ko
 mmi_info.ko
 mmi_annotate.ko
