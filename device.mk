@@ -10,6 +10,9 @@ TARGET_IS_VAB := true
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Dolby
+$(call inherit-product, hardware/motorola/dolby/setup.mk)
+
 # Screen
 TARGET_SCREEN_DENSITY := 400
 
