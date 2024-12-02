@@ -8,6 +8,7 @@ DEVICE_PATH := device/motorola/tundra
 
 # Inherit from motorola sm7325-common
 include device/motorola/sm7325-common/BoardConfigCommon.mk
+include hardware/motorola/dolby/BoardConfigVendor.mk
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := tundra
