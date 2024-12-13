@@ -282,6 +282,12 @@ vendor/lib64/libets_teeclient_v3.so
 vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
+# HotwordEnrollment
+product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk
+product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
+system_ext/framework/com.android.hotwordenrollment.common.util.jar
+
 # MotCamera4
 product/app/MotCamera3AI/MotCamera3AI.apk;PRESIGNED
 product/etc/permissions/com.motorola.camera3.xml
