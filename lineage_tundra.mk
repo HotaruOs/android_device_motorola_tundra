@@ -26,3 +26,26 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="tundra_g-user 14 U1SJS34.2-92-10-2 263481-6419b2 release-keys" \
     BuildFingerprint=motorola/tundra_g/tundra:14/U1SJS34.2-92-10-2/263481-6419b2:user/release-keys \
     DeviceProduct=tundra_g
+
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Device Identifier 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Snapdragon 888+" \
+    RisingMaintainer="HotaruOs"
+
+# Gapps:
+WITH_GMS := true
+RISING_PACKAGE_TYPE := GAPPS
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+
+# UDFPS
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+
+# Blur 
+TARGET_ENABLE_BLUR := true
+
+# Camera 
+PRODUCT_NO_CAMERA := true
