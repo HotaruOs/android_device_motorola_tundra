@@ -86,5 +86,9 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
+# Thermal
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal-engine-tundra-game-perf.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-tundra.conf
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/tundra/tundra-vendor.mk)
