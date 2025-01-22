@@ -1,3 +1,8 @@
+//
+// SPDX-FileCopyrightText: 2023 ArrowOS
+// SPDX-License-Identifier: Apache-2.0
+//
+
 cc_binary {
     name: "android.hardware.biometrics.fingerprint@2.3-service.tundra",
     defaults: ["hidl_defaults"],
