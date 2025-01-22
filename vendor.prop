@@ -6,3 +6,6 @@ persist.vendor.camera.physical.num=4
 
 # NFC
 ro.vendor.hw.nfc=st
+
+# Display
+vendor.display.idle_time=0
